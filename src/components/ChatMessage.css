@@ -1,0 +1,36 @@
+.chat-message-user{
+      display: flex;
+      justify-content: end;
+      align-items: center;
+    }
+  /* robot message alignment (left side) */
+.chat-message-robot{
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+    }
+  /* message bubble */
+.chat-message-text{
+      background-color: rgb(238,238,238);
+      padding: 15px 20px;
+      border-radius: 10px;
+      margin: 10px  20px;
+      align-items: center;
+      display: inline-block;
+      max-width: 70%; /* prevents too wide messages */
+      /* border: 1px solid red; */
+    }
+  /* profile image size */
+.chat-message-profile{
+      width: 45px;
+    }
+.chat-message-time {
+  font-size: 12px;
+  color: rgb(125, 125, 125);
+  margin-top: 5px;
+  align-items: start;
+  /* border: 1px solid green; */
+}
+.chat-message-content{
+    /* border: 1px solid blue; */
+}
